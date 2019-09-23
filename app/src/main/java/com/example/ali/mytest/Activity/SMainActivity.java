@@ -1,17 +1,19 @@
 package com.example.ali.mytest.Activity;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+
 import android.view.MenuItem;
 
 import com.example.ali.mytest.Fragment.FragmentOne;
 import com.example.ali.mytest.Fragment.FragmentThree;
 import com.example.ali.mytest.Fragment.FragmentTwo;
 import com.example.ali.mytest.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class SMainActivity extends AppCompatActivity {
 

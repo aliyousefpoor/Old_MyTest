@@ -5,13 +5,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.fragment.app.Fragment;
+
 import com.example.ali.mytest.R;
 
 /**
  * Created by Ali on 7/27/2017.
  */
 
-public class PhotosFragment extends android.support.v4.app.Fragment {
+public class PhotosFragment extends Fragment {
 
     public static PhotosFragment newInstance() {
         PhotosFragment fragment = new PhotosFragment();
